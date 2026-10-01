@@ -22,16 +22,7 @@ body {
     Color: #F9FAF8
 }
 
-.hero,
-.info,
-.quote,
-.cta,
-.footer {
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-.container.header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +40,13 @@ body {
     gap: 8px;
 }
 
-.container.hero-content {
+.container {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.hero-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +86,6 @@ body {
 }
 
 .info {
-    max-width: 1024px;
     text-align: center;
 }
 
