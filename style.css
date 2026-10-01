@@ -1,5 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 .hero {
-    background-color: rgb(25, 25, 70);
+    background-color: #1f2937;
     color: white;
-    /* width: 100%; */
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    Color: #F9FAF8
+}
+
+.hero,
+.info,
+.quote,
+.cta,
+.footer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 32px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.container.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-btn {
+    padding: 6px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10%;
+    border: none;
+}
+
+.hero-image {
+    width: 300px;
+    background-color: grey;
+    border: none;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    max-width: 1024px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.imgcard {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: solid 2px blue;
+    margin: 0 0 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    height: 100px;
+}
+
+.cta-box button {
+    padding: 8px 16px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10%;
+    border: 2px solid #F9FAF8;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #1f2937;
+    color: white;
 }
