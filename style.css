@@ -70,11 +70,15 @@ body {
 }
 
 .hero-btn {
-    padding: 6px;
-    background-color: #3882f6;
-    color: white;
-    border-radius: 10%;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 35px;
+    background-color: #3b82f6;
+    color: #ffffff;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .hero-image {
@@ -141,11 +145,15 @@ body {
 }
 
 .cta-box button {
-    padding: 8px 16px;
-    background-color: #3882f6;
-    color: #F9FAF8;
-    border-radius: 10%;
-    border: 2px solid #F9FAF8;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px 33px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
