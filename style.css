@@ -121,7 +121,8 @@ body {
 }
 
 .imgcard figcaption {
-    color: #4b5563;}
+    color: #4b5563;
+}
 
 .quote {
     background-color: #e5e7eb;
@@ -152,13 +153,30 @@ cite {
     margin-top: 4px;
 }
 
+.cta {
+    padding: 100px 0;
+}
+
 .cta-box {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    background-color: #3882f6;
-    color: white;
-    height: 100px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border-radius: 8px;
+    height: 150px;
+    padding: 0 120px;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.cta-text p {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .cta-box button {
