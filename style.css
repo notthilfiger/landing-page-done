@@ -91,48 +91,65 @@ body {
 }
 
 .info {
+    padding: 50px 0 120px;
     text-align: center;
 }
 
 .info h2 {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 900;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .container-cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
 .imgcard {
     width: 140px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .card {
-    border: solid 2px blue;
-    margin: 0 0 8px;
-    width: 100px;
-    height: 100px;
-    border-radius: 10%;
+    height: 168px;
+    border: 4px solid #3b82f6;
+    border-radius: 12px;
+    margin-bottom: 4px;
 }
 
+.imgcard figcaption {
+    color: #4b5563;}
+
 .quote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #e5e7eb;
     color: #1f2937;
+    padding: 110px 0;
+}
+
+.quote-content {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+blockquote {
+    font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    height: 100px;
-    margin-top: 20px;
+    line-height: 1.17;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    padding-right: 30px;
+    margin-top: 4px;
 }
 
 .cta-box {
